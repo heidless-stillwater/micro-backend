@@ -20,3 +20,6 @@ DB: List[Person] = [
 def read_root():
     return DB
 
+@app.get('/life')
+def read_root():
+    return 'hello'
